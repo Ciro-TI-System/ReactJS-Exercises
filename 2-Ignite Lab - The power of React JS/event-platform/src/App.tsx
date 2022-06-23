@@ -12,11 +12,13 @@ query {
 }
 '
 
-//This function is a component called in 'main'.
+
 function App() {
   useEffect(() => {
     client.query({
       query: GET_LESSONS_QUERY,
+    }).then(response =? {
+      console.log(response.data)
     })
   }, [])
 
