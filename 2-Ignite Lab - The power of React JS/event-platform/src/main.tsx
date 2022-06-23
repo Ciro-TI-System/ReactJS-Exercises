@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './styles/global.css'
 import App from './App'
 
 //Aqui o 'render' mostra a aplicação em tela dentro do arquivo 'root'.
